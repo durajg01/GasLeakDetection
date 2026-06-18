@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data — raw data and cache not tracked
+data/raw/*.dat
+data/raw/*.parquet
+data/raw/*.csv
+
+# Results — generated files not tracked
+results/figures/
+results/metrics/
+results/models/
+results/raport.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
